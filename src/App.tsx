@@ -1,7 +1,6 @@
 import { useState } from "react";
 import Button from "./components/Button";
 import NumberInputs from "./components/NumberInputs";
-import { handleDividir, handleFactorial, handleMultiplicar, handleRestar, handleSumar } from "./hooks/HandleOperations";
 import { handleClick } from "./hooks/HandleClick";
 
 const App = () => {
